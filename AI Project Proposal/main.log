@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  4 JAN 2025 16:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  4 JAN 2025 16:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/PU Projects/PUC Courses/6th Semester/Artificial Intelligence Lab/AI Project Proposal/main.tex"
-(c:/PU Projects/PUC Courses/6th Semester/Artificial Intelligence Lab/AI Project Proposal/main.tex
+**"c:/Users/SAKIB/Downloads/AI Project Proposal/main.tex"
+(c:/Users/SAKIB/Downloads/AI Project Proposal/main.tex
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
 (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -567,36 +567,54 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 24.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 24.
- (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+
+c:/Users/SAKIB/Downloads/AI Project Proposal/main.tex:21: LaTeX Error: Option clash for package hyperref.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 
+     
+The package hyperref has already been loaded with options:
+  []
+There has now been an attempt to load it with options
+  [colorlinks=true, linkcolor=blue, urlcolor=red, citecolor=green]
+Adding the global options:
+  ,colorlinks=true, linkcolor=blue, urlcolor=red, citecolor=green
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 26.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 26.
+(C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count349
 \l__pdf_internal_box=\box75
-) (main.aux)
+)
+No file main.aux.
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 24.
-LaTeX Font Info:    ... okay on input line 24.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -631,7 +649,7 @@ LaTeX Font Info:    ... okay on input line 24.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 24.
+Package hyperref Info: Link coloring OFF on input line 26.
 \@outlinefile=\write3
 \openout3 = `main.out'.
 
@@ -656,7 +674,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 24.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 26.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  (sec/titlepage.tex
@@ -667,40 +685,40 @@ Package pdftex.def Info: Images/PUClogo.png  used on input line 14.
 (pdftex.def)             Requested size: 93.95122pt x 76.01598pt.
 
 
-sec/titlepage.tex:18: LaTeX Error: There's no line here to end.
+sec/titlepage.tex:19: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 	\\
+l.19 	\\
         [1.5cm]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 36.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 37.
 (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 36.
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 37.
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 36.
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 37.
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 36.
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 37.
  (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 37.
 )
 
 [1
@@ -924,21 +942,22 @@ Package pdftex.def Info: Images/gantt.png  used on input line 56.
 
 [17 <./Images/gantt.png>]
 
-LaTeX Warning: Citation `ref1' undefined on input line 64.
+LaTeX Warning: Citation `ref1' undefined on input line 66.
 
 
-LaTeX Warning: Citation `ref2' undefined on input line 64.
+LaTeX Warning: Citation `ref2' undefined on input line 66.
 
 
-LaTeX Warning: Citation `ref3' undefined on input line 64.
+LaTeX Warning: Citation `ref3' undefined on input line 66.
 
 
-LaTeX Warning: Citation `ref4' undefined on input line 64.
+LaTeX Warning: Citation `ref4' undefined on input line 66.
 
 
-LaTeX Warning: Citation `ref5' undefined on input line 64.
+LaTeX Warning: Citation `ref5' undefined on input line 66.
 
-(main.bbl) (main.aux)
+No file main.bbl.
+(main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
@@ -960,13 +979,13 @@ Package rerunfilecheck Info: Checksums for `main.out':
 (rerunfilecheck)             After:  53F719AC9C6650777068764262F033E5;4866.
  ) 
 Here is how much of TeX's memory you used:
- 21011 strings out of 473920
- 402121 string characters out of 5726974
+ 21004 strings out of 473920
+ 401007 string characters out of 5726974
  1958908 words of memory out of 5000000
- 43461 multiletter control sequences out of 15000+600000
+ 43459 multiletter control sequences out of 15000+600000
  583838 words of font info for 88 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 94i,12n,117p,2461b,1048s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,12n,117p,2418b,1048s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
 Output written on main.pdf (20 pages, 737535 bytes).
 PDF statistics:

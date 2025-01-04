@@ -1,6 +1,6 @@
-PWD c:\PU Projects\PUC Courses\6th Semester\Artificial Intelligence Lab\AI Project Proposal
+PWD c:\Users\SAKIB\Downloads\AI Project Proposal
 INPUT C:\Users\SAKIB\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\PU Projects\PUC Courses\6th Semester\Artificial Intelligence Lab\AI Project Proposal\main.tex
+INPUT c:\Users\SAKIB\Downloads\AI Project Proposal\main.tex
 OUTPUT main.log
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -208,9 +208,6 @@ INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\main.aux
-INPUT .\main.aux
-INPUT main.aux
 OUTPUT main.aux
 OUTPUT main.out
 OUTPUT main.pdf
@@ -385,9 +382,6 @@ INPUT .\Images\gantt.png
 INPUT .\Images\gantt.png
 INPUT .\Images\gantt.png
 INPUT .\Images\gantt.png
-INPUT .\main.bbl
-INPUT .\main.bbl
-INPUT main.bbl
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
