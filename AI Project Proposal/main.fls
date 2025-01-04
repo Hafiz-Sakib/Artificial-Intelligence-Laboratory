@@ -206,9 +206,18 @@ INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\main.aux
+INPUT .\main.aux
+INPUT main.aux
 OUTPUT main.aux
-OUTPUT main.out
+INPUT .\main.out
+INPUT .\main.out
+INPUT main.out
+INPUT main.out
 OUTPUT main.pdf
+INPUT .\main.out
+INPUT .\main.out
+OUTPUT main.out
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -245,10 +254,47 @@ INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-OUTPUT main.toc
+INPUT .\main.toc
+INPUT .\main.toc
+INPUT main.toc
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+OUTPUT main.toc
+INPUT .\main.lof
+INPUT .\main.lof
+INPUT main.lof
 OUTPUT main.lof
+INPUT .\main.lot
+INPUT .\main.lot
+INPUT main.lot
 OUTPUT main.lot
 INPUT .\sec\introduction.tex
 INPUT .\sec\introduction.tex
@@ -260,6 +306,11 @@ INPUT .\sec\objectives.tex
 INPUT .\sec\objectives.tex
 INPUT .\sec\objectives.tex
 INPUT sec\objectives.tex
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
 INPUT .\sec\Background and Motivation.tex
 INPUT .\sec\Background and Motivation.tex
 INPUT .\sec\Background and Motivation.tex
@@ -270,35 +321,6 @@ INPUT .\sec\problem_statement.tex
 INPUT .\sec\problem_statement.tex
 INPUT .\sec\problem_statement.tex
 INPUT sec\problem_statement.tex
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT .\sec\Data Description.tex
 INPUT .\sec\Data Description.tex
 INPUT .\sec\Data Description.tex
@@ -316,15 +338,22 @@ INPUT .\Images\flow.png
 INPUT .\Images\flow.png
 INPUT .\Images\flow.png
 INPUT .\Images\flow.png
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8c.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
 INPUT .\sec\Evaluation Metrices.tex
 INPUT .\sec\Evaluation Metrices.tex
 INPUT .\sec\Evaluation Metrices.tex
 INPUT .\sec\Evaluation Metrices.tex
 INPUT sec\Evaluation Metrices.tex
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8c.vf
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7t.vf
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\zptmcm7y.vf
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\SAKIB\AppData\Local\MiKTeX\fonts\tfm\public\rsfs\rsfs10.tfm
 INPUT .\sec\Implementation Plan.tex
 INPUT .\sec\Implementation Plan.tex
 INPUT .\sec\Implementation Plan.tex
@@ -335,7 +364,6 @@ INPUT .\sec\expected_outcome.tex
 INPUT .\sec\expected_outcome.tex
 INPUT .\sec\expected_outcome.tex
 INPUT sec\expected_outcome.tex
-INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb8c.vf
 INPUT .\sec\Societal_and_Cultural_Impact.tex
 INPUT .\sec\Societal_and_Cultural_Impact.tex
 INPUT .\sec\Societal_and_Cultural_Impact.tex
@@ -353,9 +381,16 @@ INPUT .\Images\gantt.png
 INPUT .\Images\gantt.png
 INPUT .\Images\gantt.png
 INPUT .\Images\gantt.png
+INPUT .\main.bbl
+INPUT .\main.bbl
+INPUT main.bbl
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt12.pfb
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb

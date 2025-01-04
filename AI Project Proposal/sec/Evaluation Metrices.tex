@@ -1,4 +1,47 @@
-\section{Evaluation Metrices}
-How will you measure success?
+\section{Evaluation Metrics}
+To measure the success of the crop disease prediction model, various evaluation metrics will be used to assess its performance. These metrics are crucial for determining the effectiveness of the model in accurately identifying crop diseases and ensuring reliability for end-users.
 
-Common metrics: accuracy, precision, recall, F1 score, RMSE, etc.
+\subsection{Primary Metrics}
+The following metrics will be used to evaluate the model:
+\begin{itemize}
+    \item \textbf{Accuracy:} Measures the overall correctness of predictions by calculating the proportion of correctly classified images out of the total dataset. It provides a general sense of performance but may not capture class imbalances.
+    \[
+    \text{Accuracy} = \frac{\text{True Positives} + \text{True Negatives}}{\text{Total Samples}}
+    \]
+
+    \item \textbf{Precision:} Focuses on the quality of positive predictions by measuring the proportion of correctly identified positive samples out of all predicted positives. Useful when false positives need to be minimized.
+    \[
+    \text{Precision} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Positives}}
+    \]
+
+    \item \textbf{Recall (Sensitivity):} Indicates the ability to correctly identify positive samples out of all actual positives. It is crucial when false negatives have significant consequences, such as missing a disease diagnosis.
+    \[
+    \text{Recall} = \frac{\text{True Positives}}{\text{True Positives} + \text{False Negatives}}
+    \]
+
+    \item \textbf{F1 Score:} Provides a balanced measure of precision and recall by calculating their harmonic mean. It is particularly useful in scenarios with class imbalances.
+    \[
+    \text{F1 Score} = 2 \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{Precision} + \text{Recall}}
+    \]
+
+\end{itemize}
+
+\subsection{Additional Metrics}
+The following additional metrics will be considered to gain deeper insights into the model's performance:
+\begin{itemize}
+    \item \textbf{Confusion Matrix:} A tabular representation of actual versus predicted classifications that highlights true positives, true negatives, false positives, and false negatives.
+    \item \textbf{Receiver Operating Characteristic (ROC) Curve and AUC:} Evaluates the model's ability to distinguish between classes by plotting true positive rates against false positive rates at various thresholds. The Area Under the Curve (AUC) quantifies this capability.
+    \item \textbf{Cross-Entropy Loss:} Measures the difference between the predicted probability distribution and the actual labels during training, providing a sense of how well the model is learning.
+    \item \textbf{Root Mean Squared Error (RMSE):} If applicable, RMSE will be used to evaluate models that involve regression components (e.g., severity prediction of a disease).
+\end{itemize}
+
+\subsection{Criteria for Success}
+The success of the project will be determined based on the following criteria:
+\begin{itemize}
+    \item Achieving an accuracy of at least 90\% on the test dataset.
+    \item Maintaining a precision and recall of at least 85\% across all classes.
+    \item Ensuring a high F1 Score, particularly for minority classes, to address any class imbalances.
+    \item Demonstrating robustness and generalizability through consistent performance on unseen validation data.
+\end{itemize}
+
+By utilizing these metrics, the project ensures a comprehensive evaluation of the model's performance, guaranteeing its effectiveness and reliability in real-world applications.
