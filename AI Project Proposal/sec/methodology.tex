@@ -1,5 +1,5 @@
 \section{Methodology}
-This section outlines the proposed approach for implementing the crop disease prediction system, including the machine learning techniques, tools, and resources used. 
+The proposed methodology for the crop disease prediction system involves several key steps, starting with the collection of labeled crop image datasets that represent various diseases. The collected data will undergo preprocessing, including resizing, augmentation, and normalization, to ensure consistency and quality. Features will be extracted using deep learning models such as ResNet50, followed by the selection of an appropriate machine learning model, like a Convolutional Neural Network (CNN), for image classification. The model will be trained using a subset of the data, with hyperparameters tuned to optimize performance. Once trained, the model will be evaluated using metrics such as accuracy, precision, and recall. Optimization techniques, including fine-tuning and data augmentation, will be applied to improve the model’s performance. Finally, the trained model will be integrated into a user-friendly application that allows real-time crop disease predictions, and the system will be continuously monitored and updated based on user feedback and new data.
 
 \subsection{Proposed Approach}
 The project will utilize a deep learning-based supervised learning approach. The labeled dataset of crop images will serve as the input to train a convolutional neural network (CNN) for image classification tasks. The supervised learning approach ensures that the model learns to map input images to corresponding disease labels effectively.
@@ -20,24 +20,25 @@ The implementation will utilize the following tools and libraries:
     \item \textbf{Development Environment:} Jupyter Notebook, Google Colab
     \item \textbf{Visualization Tools:} Matplotlib, Seaborn, Plotly
 \end{itemize}
-
+\newpage
 \subsection{Workflow}
 The proposed workflow for the project is depicted in Figure~\ref{fig:methodology_workflow}, which includes the phases of data preprocessing, model training, and deployment.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.5\linewidth]{Images/flow.png}
+    \includegraphics[width=0.6\linewidth]{Images/flow.png}
     \caption{Workflow for Crop Disease Prediction System}
     \label{fig:methodology_workflow}
 \end{figure}
-
+\newpage
 \subsection{Cost-Benefit Analysis}
-A sample cost-benefit analysis of the project is presented in Table.
+A sample cost-benefit analysis of the project is presented in Table~\ref{tab:cost-benefit}.
 \begin{table}[h]
     \centering
     \caption{Sample Cost-Benefit Analysis of the Proposed Project}
     \label{tab:cost-benefit}
-    \begin{tabular}{|l|p{6cm}|c|c|}
+    {
+    \begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|p{4cm}|}
         \hline
         \textbf{Item} & \textbf{Description} & \textbf{Cost (\$)} & \textbf{Benefit (\$)} \\ \hline
         Planning & Define objectives, scope, and deliverables & 2,000 & Clear and actionable project roadmap \\ \hline
@@ -54,7 +55,5 @@ A sample cost-benefit analysis of the project is presented in Table.
         \textbf{Total Benefits} &  & - & \textbf{50,000} \\ \hline
         \textbf{Net Benefit} &  & \textbf{18,500} & \textbf{31,500} \\ \hline
     \end{tabular}
+    }
 \end{table}
-
-
-
