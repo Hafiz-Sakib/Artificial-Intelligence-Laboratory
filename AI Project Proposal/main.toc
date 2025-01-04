@@ -1,6 +1,6 @@
 \contentsline {section}{TITLE PAGE}{i}{Doc-Start}%
-\contentsline {section}{TABLE OF CONTENTS}{iii}{Doc-Start}%
-\contentsline {section}{LIST OF FIGURES}{iv}{Doc-Start}%
+\contentsline {section}{TABLE OF CONTENTS}{ii}{Doc-Start}%
+\contentsline {section}{LIST OF FIGURES}{iii}{Doc-Start}%
 \contentsline {section}{LIST OF TABLES}{1}{Doc-Start}%
 \contentsline {section}{\numberline {1}Introduction}{2}{section.1}%
 \contentsline {section}{\numberline {2}Objectives}{2}{section.2}%
@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {7.2}Additional Metrics}{10}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}Criteria for Success}{11}{subsection.7.3}%
 \contentsline {section}{\numberline {8}Implementation Plan}{11}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Phases of Implementation}{12}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.1}Phases of Implementation}{11}{subsection.8.1}%
 \contentsline {subsection}{\numberline {8.2}Estimated Timeline}{13}{subsection.8.2}%
 \contentsline {section}{\numberline {9}Expected Outcome}{14}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Tangible Deliverables}{14}{subsection.9.1}%
@@ -30,4 +30,3 @@
 \contentsline {section}{\numberline {10}Milestone}{15}{section.10}%
 \contentsline {subsection}{\numberline {10.1}Project Milestones and Timeline}{16}{subsection.10.1}%
 \contentsline {subsection}{\numberline {10.2}Visualization of Timeline}{17}{subsection.10.2}%
-\contentsline {section}{REFERENCES}{18}{section*.4}%
