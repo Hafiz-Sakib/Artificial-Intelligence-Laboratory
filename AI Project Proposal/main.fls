@@ -1,6 +1,6 @@
-PWD c:\Users\SAKIB\Downloads\AI Project Proposal
+PWD c:\PU Projects\PUC Courses\6th Semester\Artificial Intelligence Lab\AI Project Proposal
 INPUT C:\Users\SAKIB\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\SAKIB\Downloads\AI Project Proposal\main.tex
+INPUT c:\PU Projects\PUC Courses\6th Semester\Artificial Intelligence Lab\AI Project Proposal\main.tex
 OUTPUT main.log
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -382,6 +382,9 @@ INPUT .\Images\gantt.png
 INPUT .\Images\gantt.png
 INPUT .\Images\gantt.png
 INPUT .\Images\gantt.png
+INPUT .\main.bbl
+INPUT .\main.bbl
+INPUT main.bbl
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
