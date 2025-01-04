@@ -1,17 +1,17 @@
-\usepackage{tikz}
-
+\addcontentsline{toc}{section}{TITLE PAGE}
+\thispagestyle{empty} % This will hide the page number on the title page
 \begin{titlepage}
     \centering
     \begin{center}
         \includegraphics[width=0.3\textwidth]{./Images/PUClogo.png} % Adjust width as necessary
     \end{center}
-    \begin{center}
-        \textbf{Department of Computer Science and Engineering}\\
-        Premier University
-    \end{center}
-    \begin{center}
-        \textnormal{ CSE 338: Software Development }
-    \end{center}
+\begin{center}
+    \textbf{Department of Computer Science and Engineering}\\
+    Premier University
+\end{center}
+\begin{center}
+    \textnormal{ CSE 338: Software Development }
+\end{center}
     \vspace{0.5in}
     \small
     \textbf{A Project Proposal Report On}\\
@@ -36,22 +36,20 @@
         Mohammad Asmual Hoque Yousha & 0222210005101121 \\
         \hline
         \end{tabular}
-    \end{center}
+        \end{center}
     \vspace{0.5in}
  
-    % Properly closed minipage 1
-    \begin{minipage}[t]{0.5\textwidth}
+\begin{minipage}[t]{0.5\textwidth}
         \textbf{Submitted to :}
         \\Tashin Hossain
-        \\Lecturer, Department of CSE
+        \\Lecturer,Department of CSE
         \\ Premier University
         \\ Chittagong
     \end{minipage}%
-    % Properly closed minipage 2 before tikzpicture
     \begin{minipage}[t]{0.6\textwidth}
         \raggedleft
         \textbf{Remarks}\\
-        \vspace*{0.5cm} % Adjust vertical space for remarks
+        \vspace{0.5cm} % Adjust vertical space for remarks
         \begin{tikzpicture}
             \draw[thick, rounded corners] (0,0) rectangle (4,2);
         \end{tikzpicture}
@@ -60,3 +58,6 @@
     \date{\today}
     \vfill
 \end{titlepage}
+
+
+\newpage
