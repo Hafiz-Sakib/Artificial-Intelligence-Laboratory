@@ -39,7 +39,7 @@ print(f"Output folder created at: {output_folder}")
 """# **Load CSV File and Add Class Names**"""
 
 # Step 5: Load the CSV file containing image IDs and labels
-df = pd.read_csv(csv_folder)
+df = pd.read_csv(csv_path)
 print("CSV file loaded successfully. First few rows:")
 print(df.head())
 
@@ -113,37 +113,59 @@ val_generator = val_datagen.flow_from_dataframe(
 """# **Visualize and Save Augmented Images**"""
 
 # Step 14: Function to visualize and save 8 types of augmented images in separate folders
-def visualize_and_save_augmented_images(generator, save_dir, num_images=50):
+def visualize_and_save_augmented_images(generator, save_dir, num_images=30):
     # Get the first batch of images and labels
     images, labels = next(generator)
 
+    # Get the original filenames from the generator
+    filenames = generator.filenames
+
     # Create a subfolder for each image and save the augmented images
     for i in range(num_images):
-        image_folder = os.path.join(save_dir, f'augmented_image_{i + 1}')  # Create folder for each image
+        # Extract the original image's filename (without extension) and label
+        original_filename = os.path.splitext(os.path.basename(filenames[i]))[0]  # Get filename without extension
+        label = labels[i]  # Get the label
+
+        # Create a folder name using the original filename and label
+        folder_name = f"{original_filename}_label_{label}"
+        image_folder = os.path.join(save_dir, folder_name)  # Create folder for each image
         os.makedirs(image_folder, exist_ok=True)
 
         # Save the original image
         img = array_to_img(images[i])  # Convert array to image
-        img.save(os.path.join(image_folder, f'original_image_{i + 1}.jpg'))  # Save original image
+        img.save(os.path.join(image_folder, 'original_image.jpg'))  # Save original image
 
         # Display the original image
         plt.figure()
         plt.imshow(images[i])
-        plt.title(f'Original Image - Label: {labels[i]}')
+        plt.title(f'Original Image - Label: {label}')
         plt.axis('off')
         plt.show()
 
-        # Generate and save 8 augmented images
-        for j in range(8):
-            # Apply random transformation using the ImageDataGenerator
-            augmented_image = train_datagen.random_transform(images[i])  # Apply random transformation
+        # Define augmentation parameters explicitly
+        augmentations = [
+            {'rescale': 1./255, 'filename': 'rescale=1.0_255.jpg'},
+            {'rotation_range': 20, 'filename': 'rotation_range=20.jpg'},
+            {'width_shift_range': 0.2, 'filename': 'width_shift_range=0.2.jpg'},
+            {'height_shift_range': 0.2, 'filename': 'height_shift_range=0.2.jpg'},
+            {'shear_range': 0.2, 'filename': 'shear_range=0.2.jpg'},
+            {'zoom_range': 0.2, 'filename': 'zoom_range=0.2.jpg'},
+            {'horizontal_flip': True, 'filename': 'horizontal_flip=True.jpg'},
+            {'fill_mode': 'nearest', 'filename': 'fill_mode=nearest.jpg'}
+        ]
+
+        # Apply each augmentation and save the image
+        for aug in augmentations:
+            # Create a new ImageDataGenerator with the specific augmentation
+            datagen = ImageDataGenerator(**{k: v for k, v in aug.items() if k != 'filename'})
+            augmented_image = datagen.random_transform(images[i])  # Apply the augmentation
             augmented_img = array_to_img(augmented_image)  # Convert array to image
-            augmented_img.save(os.path.join(image_folder, f'augmented_image_{i + 1}_type_{j + 1}.jpg'))  # Save augmented image
+            augmented_img.save(os.path.join(image_folder, aug['filename']))  # Save augmented image
 
             # Display the augmented image
             plt.figure()
             plt.imshow(augmented_image)
-            plt.title(f'Augmented Image {j + 1} - Label: {labels[i]}')
+            plt.title(f'Augmented Image: {aug["filename"]} - Label: {label}')
             plt.axis('off')
             plt.show()
 
