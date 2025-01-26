@@ -27,15 +27,14 @@ import matplotlib.pyplot as plt
 # Step 2: Mount Google Drive to access files
 drive.mount('/content/drive')
 
-# Step 3: Define paths for input, output, CSV, and models
+# Step 3: Define paths for input and output folders
 input_folder = "/content/drive/MyDrive/Dataset/train/train_data"  # Folder containing original images
+csv_path = "/content/drive/MyDrive/Dataset/train/other/train.csv"  # Path to the CSV file
 output_folder = "/content/drive/MyDrive/Dataset/train/augmented_images"  # Folder to save augmented images
-csv_folder = "/content/drive/MyDrive/Dataset/train/other/train.csv"  # Path to the CSV file
-models_folder = "/content/drive/MyDrive/Dataset/train/models"  # Folder to save trained models
 
-# Step 4: Create folders if they don't exist
-os.makedirs(output_folder, exist_ok=True)  # Create folder for augmented images
-os.makedirs(models_folder, exist_ok=True)  # Create folder for saving models
+# Create the output folder if it doesn't exist
+os.makedirs(output_folder, exist_ok=True)
+print(f"Output folder created at: {output_folder}")
 
 """# **Load CSV File and Add Class Names**"""
 
@@ -113,26 +112,40 @@ val_generator = val_datagen.flow_from_dataframe(
 
 """# **Visualize and Save Augmented Images**"""
 
-# Step 14: Function to visualize and save augmented images in separate folders
-def visualize_and_save_augmented_images(generator, save_dir, num_images=10):
-    # Get the first batch of augmented images
+# Step 14: Function to visualize and save 8 types of augmented images in separate folders
+def visualize_and_save_augmented_images(generator, save_dir, num_images=50):
+    # Get the first batch of images and labels
     images, labels = next(generator)
 
-    # Create a subfolder for each image and save the augmented image
+    # Create a subfolder for each image and save the augmented images
     for i in range(num_images):
         image_folder = os.path.join(save_dir, f'augmented_image_{i + 1}')  # Create folder for each image
         os.makedirs(image_folder, exist_ok=True)
 
-        # Save the augmented image
+        # Save the original image
         img = array_to_img(images[i])  # Convert array to image
-        img.save(os.path.join(image_folder, f'augmented_image_{i + 1}.jpg'))  # Save image
+        img.save(os.path.join(image_folder, f'original_image_{i + 1}.jpg'))  # Save original image
 
-        # Display the image
+        # Display the original image
         plt.figure()
         plt.imshow(images[i])
-        plt.title(f'Label: {labels[i]}')
+        plt.title(f'Original Image - Label: {labels[i]}')
         plt.axis('off')
         plt.show()
+
+        # Generate and save 8 augmented images
+        for j in range(8):
+            # Apply random transformation using the ImageDataGenerator
+            augmented_image = train_datagen.random_transform(images[i])  # Apply random transformation
+            augmented_img = array_to_img(augmented_image)  # Convert array to image
+            augmented_img.save(os.path.join(image_folder, f'augmented_image_{i + 1}_type_{j + 1}.jpg'))  # Save augmented image
+
+            # Display the augmented image
+            plt.figure()
+            plt.imshow(augmented_image)
+            plt.title(f'Augmented Image {j + 1} - Label: {labels[i]}')
+            plt.axis('off')
+            plt.show()
 
 # Step 15: Call the function to visualize and save augmented images
 visualize_and_save_augmented_images(train_generator, output_folder)
