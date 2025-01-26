@@ -550,70 +550,87 @@ Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcoloftmargin=\dimen199
+\caption@rightmargin=\dimen256
+\caption@width=\dimen257
+\caption@indent=\dimen258
+\caption@parindent=\dimen259
+\caption@hangindent=\dimen260
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count340
+\c@continuedfloat=\count341
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: supertabular package is loaded.
+) (C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen261
+\lightrulewidth=\dimen262
+\cmidrulewidth=\dimen263
+\belowrulesep=\dimen264
+\belowbottomsep=\dimen265
+\aboverulesep=\dimen266
+\abovetopsep=\dimen267
+\cmidrulesep=\dimen268
+\cmidrulekern=\dimen269
+\defaultaddspace=\dimen270
+\@cmidla=\count342
+\@cmidlb=\count343
+\@aboverulesep=\dimen271
+\@belowrulesep=\dimen272
+\@thisruleclass=\count344
+\@lastruleclass=\count345
+\@thisrulewidth=\dimen273
+) (C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+
+(C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: luatex.def on input line 274.
+(C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+) (C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
-\everycr=\toks40
+\everycr=\toks41
 \minrowclearance=\skip78
-\rownum=\count348
-) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+\rownum=\count346
+) (C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks41
-\inpenc@posthook=\toks42
-) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+\inpenc@prehook=\toks42
+\inpenc@posthook=\toks43
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 
-c:/PU Projects/PUC Courses/6th Semester/Artificial Intelligence Lab/AI Project Proposal/main.tex:21: LaTeX Error: Option clash for package hyperref.
+! LaTeX Error: Option clash for package hyperref.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.21 
-     
-The package hyperref has already been loaded with options:
-  []
-There has now been an attempt to load it with options
-  [colorlinks=true, linkcolor=blue, urlcolor=red, citecolor=green]
-Adding the global options:
-  ,colorlinks=true, linkcolor=blue, urlcolor=red, citecolor=green
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
-
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 26.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 26.
-(C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
-File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
-) (C:\Users\SAKIB\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count349
-\l__pdf_internal_box=\box75
-)
-No file main.aux.
-\openout1 = `main.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
+   
+? X Font Info:    Checking defaults for PU/pdf/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
