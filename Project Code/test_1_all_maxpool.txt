@@ -1,0 +1,114 @@
+Epoch 1/20
+/usr/local/lib/python3.11/dist-packages/keras/src/trainers/data_adapters/py_dataset_adapter.py:122: UserWarning: Your `PyDataset` class should call `super().__init__(**kwargs)` in its constructor. `**kwargs` can include `workers`, `use_multiprocessing`, `max_queue_size`. Do not pass these arguments to `fit()`, as they will be ignored.
+  self._warn_if_super_not_called()
+421/421 ━━━━━━━━━━━━━━━━━━━━ 0s 12s/step - accuracy: 0.6028 - loss: 1.3780 
+Epoch 1: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_01_val_acc_0.6415.keras
+
+Epoch 1: Training Accuracy = 0.6117, Validation Accuracy = 0.6415
+421/421 ━━━━━━━━━━━━━━━━━━━━ 6341s 15s/step - accuracy: 0.6028 - loss: 1.3776 - val_accuracy: 0.6415 - val_loss: 1.0452
+Epoch 2/20
+  1/421 ━━━━━━━━━━━━━━━━━━━━ 18:07 3s/step - accuracy: 0.5938 - loss: 1.2035/usr/lib/python3.11/contextlib.py:158: UserWarning: Your input ran out of data; interrupting training. Make sure that your dataset or generator can generate at least `steps_per_epoch * epochs` batches. You may need to use the `.repeat()` function when building your dataset.
+  self.gen.throw(typ, value, traceback)
+
+Epoch 2: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_02_val_acc_0.6818.keras
+
+Epoch 2: Training Accuracy = 0.5938, Validation Accuracy = 0.6818
+421/421 ━━━━━━━━━━━━━━━━━━━━ 9s 15ms/step - accuracy: 0.5938 - loss: 1.2035 - val_accuracy: 0.6818 - val_loss: 1.0686
+Epoch 3/20
+421/421 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.6257 - loss: 1.0897
+Epoch 3: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_03_val_acc_0.6433.keras
+
+Epoch 3: Training Accuracy = 0.6247, Validation Accuracy = 0.6433
+421/421 ━━━━━━━━━━━━━━━━━━━━ 1165s 3s/step - accuracy: 0.6257 - loss: 1.0896 - val_accuracy: 0.6433 - val_loss: 1.0567
+Epoch 4/20
+  1/421 ━━━━━━━━━━━━━━━━━━━━ 11:06 2s/step - accuracy: 0.5312 - loss: 1.2451
+Epoch 4: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_04_val_acc_0.7273.keras
+
+Epoch 4: Training Accuracy = 0.5312, Validation Accuracy = 0.7273
+421/421 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.5312 - loss: 1.2451 - val_accuracy: 0.7273 - val_loss: 1.0597
+Epoch 5/20
+421/421 ━━━━━━━━━━━━━━━━━━━━ 0s 3s/step - accuracy: 0.6280 - loss: 1.0413
+Epoch 5: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_05_val_acc_0.6509.keras
+
+Epoch 5: Training Accuracy = 0.6295, Validation Accuracy = 0.6509
+421/421 ━━━━━━━━━━━━━━━━━━━━ 1146s 3s/step - accuracy: 0.6280 - loss: 1.0413 - val_accuracy: 0.6509 - val_loss: 1.0375
+Epoch 6/20
+  1/421 ━━━━━━━━━━━━━━━━━━━━ 12:48 2s/step - accuracy: 0.5938 - loss: 1.1812
+Epoch 6: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_06_val_acc_0.6818.keras
+
+Epoch 6: Training Accuracy = 0.5938, Validation Accuracy = 0.6818
+421/421 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.5938 - loss: 1.1812 - val_accuracy: 0.6818 - val_loss: 1.0808
+Epoch 7/20
+421/421 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.6284 - loss: 1.0296
+Epoch 7: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_07_val_acc_0.6530.keras
+
+Epoch 7: Training Accuracy = 0.6358, Validation Accuracy = 0.6530
+421/421 ━━━━━━━━━━━━━━━━━━━━ 1148s 3s/step - accuracy: 0.6284 - loss: 1.0296 - val_accuracy: 0.6530 - val_loss: 0.9926
+Epoch 8/20
+  1/421 ━━━━━━━━━━━━━━━━━━━━ 11:35 2s/step - accuracy: 0.6875 - loss: 0.8819
+Epoch 8: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_08_val_acc_0.6818.keras
+
+Epoch 8: Training Accuracy = 0.6875, Validation Accuracy = 0.6818
+421/421 ━━━━━━━━━━━━━━━━━━━━ 4s 6ms/step - accuracy: 0.6875 - loss: 0.8819 - val_accuracy: 0.6818 - val_loss: 1.0579
+Epoch 9/20
+421/421 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.6413 - loss: 0.9840
+Epoch 9: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_09_val_acc_0.6813.keras
+
+Epoch 9: Training Accuracy = 0.6450, Validation Accuracy = 0.6813
+421/421 ━━━━━━━━━━━━━━━━━━━━ 1148s 3s/step - accuracy: 0.6413 - loss: 0.9840 - val_accuracy: 0.6813 - val_loss: 0.9131
+Epoch 10/20
+  1/421 ━━━━━━━━━━━━━━━━━━━━ 11:31 2s/step - accuracy: 0.7188 - loss: 0.8634
+Epoch 10: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_10_val_acc_0.6818.keras
+
+Epoch 10: Training Accuracy = 0.7188, Validation Accuracy = 0.6818
+421/421 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.7188 - loss: 0.8634 - val_accuracy: 0.6818 - val_loss: 0.9947
+Epoch 11/20
+421/421 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.6572 - loss: 0.9403
+Epoch 11: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_11_val_acc_0.6807.keras
+
+Epoch 11: Training Accuracy = 0.6542, Validation Accuracy = 0.6807
+421/421 ━━━━━━━━━━━━━━━━━━━━ 1150s 3s/step - accuracy: 0.6572 - loss: 0.9404 - val_accuracy: 0.6807 - val_loss: 0.8878
+Epoch 12/20
+  1/421 ━━━━━━━━━━━━━━━━━━━━ 11:23 2s/step - accuracy: 0.6875 - loss: 0.8798
+Epoch 12: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_12_val_acc_0.6364.keras
+
+Epoch 12: Training Accuracy = 0.6875, Validation Accuracy = 0.6364
+421/421 ━━━━━━━━━━━━━━━━━━━━ 4s 5ms/step - accuracy: 0.6875 - loss: 0.8798 - val_accuracy: 0.6364 - val_loss: 1.0107
+Epoch 13/20
+421/421 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.6587 - loss: 0.9190
+Epoch 13: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_13_val_acc_0.6713.keras
+
+Epoch 13: Training Accuracy = 0.6598, Validation Accuracy = 0.6713
+421/421 ━━━━━━━━━━━━━━━━━━━━ 1103s 3s/step - accuracy: 0.6587 - loss: 0.9190 - val_accuracy: 0.6713 - val_loss: 0.9177
+Epoch 14/20
+  1/421 ━━━━━━━━━━━━━━━━━━━━ 16:28 2s/step - accuracy: 0.6562 - loss: 0.9344
+Epoch 14: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_14_val_acc_0.6364.keras
+
+Epoch 14: Training Accuracy = 0.6562, Validation Accuracy = 0.6364
+421/421 ━━━━━━━━━━━━━━━━━━━━ 64s 148ms/step - accuracy: 0.6562 - loss: 0.9344 - val_accuracy: 0.6364 - val_loss: 1.0398
+Epoch 15/20
+421/421 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.6566 - loss: 0.9133
+Epoch 15: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_15_val_acc_0.6666.keras
+
+Epoch 15: Training Accuracy = 0.6651, Validation Accuracy = 0.6666
+421/421 ━━━━━━━━━━━━━━━━━━━━ 1081s 3s/step - accuracy: 0.6567 - loss: 0.9133 - val_accuracy: 0.6666 - val_loss: 0.9148
+Epoch 16/20
+  1/421 ━━━━━━━━━━━━━━━━━━━━ 11:16 2s/step - accuracy: 0.5625 - loss: 0.9479
+Epoch 16: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_16_val_acc_0.6818.keras
+
+Epoch 16: Training Accuracy = 0.5625, Validation Accuracy = 0.6818
+421/421 ━━━━━━━━━━━━━━━━━━━━ 5s 8ms/step - accuracy: 0.5625 - loss: 0.9479 - val_accuracy: 0.6818 - val_loss: 1.0229
+Epoch 17/20
+421/421 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.6693 - loss: 0.8849
+Epoch 17: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_17_val_acc_0.6940.keras
+
+Epoch 17: Training Accuracy = 0.6728, Validation Accuracy = 0.6940
+421/421 ━━━━━━━━━━━━━━━━━━━━ 1095s 3s/step - accuracy: 0.6693 - loss: 0.8849 - val_accuracy: 0.6940 - val_loss: 0.8121
+Epoch 18/20
+  1/421 ━━━━━━━━━━━━━━━━━━━━ 17:26 2s/step - accuracy: 0.6562 - loss: 0.8392
+Epoch 18: saving model to /content/drive/MyDrive/Dataset/train/models/model_epoch_18_val_acc_0.6364.keras
+
+Epoch 18: Training Accuracy = 0.6562, Validation Accuracy = 0.6364
+421/421 ━━━━━━━━━━━━━━━━━━━━ 5s 6ms/step - accuracy: 0.6562 - loss: 0.8392 - val_accuracy: 0.6364 - val_loss: 1.0407
+Epoch 19/20
+421/421 ━━━━━━━━━━━━━━━━━━━━ 0s 2s/step - accuracy: 0.6858 - loss: 0.8471
