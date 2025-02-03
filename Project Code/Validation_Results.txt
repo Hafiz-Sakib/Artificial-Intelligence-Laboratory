@@ -1,0 +1,103 @@
+                Validation Results                
+--------------------------------------------------
+Epoch 4 - Loss: 0.476
+Epoch 4 - Accuracy: 0.841
+Epoch 4 - F1 Score: 0.843
+Total Validation Images: 844
+Processed Validation Images: 844
+--------------------------------------------------
+
+Loss did not decrease for 1 epochs
+Epoch 5 - Training: 100%|██████████| 476/476 [03:13<00:00,  2.46it/s, Total Images=15208, Processed=15208, Loss=0.214]
+--------------------------------------------------
+                 Training Results                 
+--------------------------------------------------
+Epoch 5 - Loss: 0.258
+Epoch 5 - Accuracy: 0.912
+Epoch 5 - F1 Score: 0.912
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+                Validation Results                
+--------------------------------------------------
+Epoch 5 - Loss: 0.495
+Epoch 5 - Accuracy: 0.841
+Epoch 5 - F1 Score: 0.841
+Total Validation Images: 844
+Processed Validation Images: 844
+--------------------------------------------------
+
+Loss did not decrease for 2 epochs
+Epoch 6 - Training: 100%|██████████| 476/476 [03:16<00:00,  2.43it/s, Total Images=15208, Processed=15208, Loss=0.010]
+--------------------------------------------------
+                 Training Results                 
+--------------------------------------------------
+Epoch 6 - Loss: 0.197
+Epoch 6 - Accuracy: 0.929
+Epoch 6 - F1 Score: 0.929
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+                Validation Results                
+--------------------------------------------------
+Epoch 6 - Loss: 0.565
+Epoch 6 - Accuracy: 0.839
+Epoch 6 - F1 Score: 0.841
+Total Validation Images: 844
+Processed Validation Images: 844
+--------------------------------------------------
+
+Loss did not decrease for 3 epochs
+Epoch 7 - Training: 100%|██████████| 476/476 [03:15<00:00,  2.43it/s, Total Images=15208, Processed=15208, Loss=0.346]
+
+--------------------------------------------------
+                 Training Results                 
+--------------------------------------------------
+Epoch 7 - Loss: 0.158
+Epoch 7 - Accuracy: 0.947
+Epoch 7 - F1 Score: 0.947
+--------------------------------------------------
+
+
+--------------------------------------------------
+                Validation Results                
+--------------------------------------------------
+Epoch 7 - Loss: 0.560
+Epoch 7 - Accuracy: 0.847
+Epoch 7 - F1 Score: 0.849
+Total Validation Images: 844
+Processed Validation Images: 844
+--------------------------------------------------
+
+Loss did not decrease for 4 epochs
+Epoch 8 - Training: 100%|██████████| 476/476 [03:15<00:00,  2.43it/s, Total Images=15208, Processed=15208, Loss=0.009]
+--------------------------------------------------
+                 Training Results                 
+--------------------------------------------------
+Epoch 8 - Loss: 0.121
+Epoch 8 - Accuracy: 0.959
+Epoch 8 - F1 Score: 0.959
+--------------------------------------------------
+
+
+
+--------------------------------------------------
+                Validation Results                
+--------------------------------------------------
+Epoch 8 - Loss: 0.691
+Epoch 8 - Accuracy: 0.838
+Epoch 8 - F1 Score: 0.840
+Total Validation Images: 844
+Processed Validation Images: 844
+--------------------------------------------------
+
+Loss did not decrease for 5 epochs
+Stopping training due to no improvement for 5 epochs.
+
+==================================================
+                Training Completed                
+==================================================
