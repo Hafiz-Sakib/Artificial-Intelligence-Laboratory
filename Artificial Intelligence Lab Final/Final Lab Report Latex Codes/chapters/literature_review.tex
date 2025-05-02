@@ -1,0 +1,20 @@
+
+This chapter reviews existing research and approaches used in plant disease classification, particularly with cassava leaves and deep learning models. With the rapid development in computer vision and machine learning, various CNN architectures and image processing techniques have been proposed to detect and classify crop diseases efficiently. Below, we highlight at least eight significant papers and their contributions.
+
+Yoon et al. (2020) \cite{das2022boosting} proposed an unsupervised image translation technique using Generative Adversarial Networks (GANs) combined with Deep CNNs to improve plant disease recognition. Their method demonstrated improved accuracy over traditional augmentation techniques due to the synthetic yet realistic image generation capabilities of GANs.
+
+Shi et al. (2019) \cite{sharmin2022investigation} developed a Global Pooling Dilated Convolutional Neural Network (GPDCNN) to detect cucumber leaf diseases. Their model outperformed conventional CNNs in robustness and achieved an accuracy of 94.65\%, showcasing the benefits of architectural enhancements.
+
+Pratap Singh et al. (2019) \cite{uddin2022multi} utilized a Multilayer Convolutional Neural Network (MCNN) for detecting anthracnose disease in mango leaves. They emphasized that their model does not require manual feature extraction and achieved a high classification accuracy of 97.13\%.
+
+V. Singh (2019) employed Particle Swarm Optimization (PSO) for sunflower leaf disease detection using image segmentation. The method achieved 98\% accuracy and required minimal parameter tuning, highlighting PSO’s strength in image-based classification.
+
+Sachan et al. (2019) proposed a Deep Convolutional Neural Network (DCNN) for real-time corn plant disease recognition using the Plant Village dataset. The model achieved an accuracy of 88.46\% without manual preprocessing, leveraging the self-learning capability of deep neural networks.
+
+Gupta et al. (2019) focused on tomato leaf disease detection using a three-layer CNN. They used the Plant Village dataset and reported a wide range of accuracies (76–100\%) across different disease categories, demonstrating the variability in model performance depending on disease complexity.
+
+Arsenovic et al. (2016) introduced a deep CNN model for detecting 13 different plant diseases using real-world agricultural images. Their model, trained on the Caffe DCNN framework, achieved an average accuracy of 96.3\%, validating the effectiveness of deep models on diverse datasets.
+
+Khamparia et al. (2019) developed a deep convolutional encoder network to detect diseases in maize leaves. Using the Softmax classifier, they achieved an accuracy of 97.5\%. The method emphasizes the usefulness of deep autoencoder structures for extracting relevant features from plant images.
+
+These studies collectively demonstrate that CNN-based models, when combined with proper preprocessing, augmentation, and architecture tuning, can achieve high accuracy in plant disease classification tasks. Inspired by these works, our study compares six well-known deep learning models — Xception, EfficientNetB0, ResNet50, VGG16, DenseNet121, and InceptionV3 — on a cassava leaf disease dataset to determine the most effective model for practical deployment.
