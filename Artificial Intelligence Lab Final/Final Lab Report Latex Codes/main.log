@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  3 MAY 2025 00:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.6.24)  3 MAY 2025 02:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1709,21 +1709,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 Chapter 2.
 (chapters/literature_review.tex
 
-LaTeX Warning: Citation `das2022boosting' on page 3 undefined on input line 4.
-
-
-LaTeX Warning: Citation `sharmin2022investigation' on page 3 undefined on input line 6.
-
-
-LaTeX Warning: Citation `uddin2022multi' on page 3 undefined on input line 8.
-
-
-
 [3
 
 ])
 
 [4]
+
+[5]
 Chapter 3.
 (chapters/methodology.tex
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 10.
@@ -1731,87 +1723,87 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 10
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 
-[5
+[6
 
 ]
-<./figures/ResNet.png, id=212, 1127.21124pt x 488.82625pt>
+<./figures/ResNet.png, id=224, 1127.21124pt x 488.82625pt>
 File: ./figures/ResNet.png Graphic file (type png)
 <use ./figures/ResNet.png>
 Package pdftex.def Info: ./figures/ResNet.png  used on input line 35.
 (pdftex.def)             Requested size: 426.79135pt x 185.0846pt.
 
 
-[6]
+[7]
 
-[7 <./figures/ResNet.png>])
+[8 <./figures/ResNet.png>])
 
-[8]
+[9]
 Chapter 4.
 (chapters/results.tex
 
-[9
+[10
 
 ]
-<figures/cbb.jpg, id=244, 752.8125pt x 564.60938pt>
+<figures/cbb.jpg, id=256, 752.8125pt x 564.60938pt>
 File: figures/cbb.jpg Graphic file (type jpg)
 <use figures/cbb.jpg>
 Package pdftex.def Info: figures/cbb.jpg  used on input line 46.
 (pdftex.def)             Requested size: 298.75264pt x 224.065pt.
 
 
-[10]
-<figures/cbsd.jpg, id=249, 803.0pt x 602.25pt>
+[11]
+<figures/cbsd.jpg, id=261, 803.0pt x 602.25pt>
 File: figures/cbsd.jpg Graphic file (type jpg)
 <use figures/cbsd.jpg>
 Package pdftex.def Info: figures/cbsd.jpg  used on input line 53.
 (pdftex.def)             Requested size: 298.75264pt x 224.0696pt.
-<figures/cgm.jpg, id=250, 803.0pt x 602.25pt>
+<figures/cgm.jpg, id=262, 803.0pt x 602.25pt>
 File: figures/cgm.jpg Graphic file (type jpg)
 <use figures/cgm.jpg>
 Package pdftex.def Info: figures/cgm.jpg  used on input line 60.
 (pdftex.def)             Requested size: 298.75264pt x 224.0696pt.
 
 
-[11 <./figures/cbb.jpg> <./figures/cbsd.jpg>]
-<figures/cmd.jpg, id=255, 803.0pt x 602.25pt>
+[12 <./figures/cbb.jpg> <./figures/cbsd.jpg>]
+<figures/cmd.jpg, id=267, 803.0pt x 602.25pt>
 File: figures/cmd.jpg Graphic file (type jpg)
 <use figures/cmd.jpg>
 Package pdftex.def Info: figures/cmd.jpg  used on input line 67.
 (pdftex.def)             Requested size: 298.75264pt x 224.0696pt.
-<figures/healthy.jpg, id=256, 803.0pt x 602.25pt>
+<figures/healthy.jpg, id=268, 803.0pt x 602.25pt>
 File: figures/healthy.jpg Graphic file (type jpg)
 <use figures/healthy.jpg>
 Package pdftex.def Info: figures/healthy.jpg  used on input line 74.
 (pdftex.def)             Requested size: 298.75264pt x 224.0696pt.
 
 
-[12 <./figures/cgm.jpg> <./figures/cmd.jpg>]
-<figures/data_chart.png, id=261, 1187.3961pt x 781.2387pt>
+[13 <./figures/cgm.jpg> <./figures/cmd.jpg>]
+<figures/data_chart.png, id=273, 1187.3961pt x 781.2387pt>
 File: figures/data_chart.png Graphic file (type png)
 <use figures/data_chart.png>
 Package pdftex.def Info: figures/data_chart.png  used on input line 81.
 (pdftex.def)             Requested size: 298.75264pt x 196.56087pt.
 
 
-[13 <./figures/healthy.jpg> <./figures/data_chart.png>]
-<figures/ac1.png, id=268, 611.4042pt x 323.7696pt>
+[14 <./figures/healthy.jpg> <./figures/data_chart.png>]
+<figures/ac1.png, id=280, 611.4042pt x 323.7696pt>
 File: figures/ac1.png Graphic file (type png)
 <use figures/ac1.png>
 Package pdftex.def Info: figures/ac1.png  used on input line 136.
 (pdftex.def)             Requested size: 341.43437pt x 180.81076pt.
 
 
-[14]
-<figures/mtx.png, id=276, 283.65974pt x 183.68625pt>
+[15]
+<figures/mtx.png, id=289, 283.65974pt x 183.68625pt>
 File: figures/mtx.png Graphic file (type png)
 <use figures/mtx.png>
 Package pdftex.def Info: figures/mtx.png  used on input line 143.
 (pdftex.def)             Requested size: 384.1096pt x 248.73367pt.
 
 
-[15 <./figures/ac1.png> <./figures/mtx.png>])
+[16 <./figures/ac1.png> <./figures/mtx.png>])
 
-[16]
+[17]
 Chapter 5.
 (chapters/conclusion.tex
 Overfull \hbox (20.69208pt too wide) in paragraph at lines 14--15
@@ -1820,39 +1812,36 @@ Overfull \hbox (20.69208pt too wide) in paragraph at lines 14--15
 
 
 
-[17
+[18
 
 ])
 
-[18]
+[19]
 Chapter 6.
 (chapters/timeline.tex
-<figures/gantt_chart_project_limegreen.png, id=297, 722.7pt x 433.62pt>
+<figures/gantt_chart_project_limegreen.png, id=309, 722.7pt x 433.62pt>
 File: figures/gantt_chart_project_limegreen.png Graphic file (type png)
 <use figures/gantt_chart_project_limegreen.png>
 Package pdftex.def Info: figures/gantt_chart_project_limegreen.png  used on input line 7.
 (pdftex.def)             Requested size: 405.45047pt x 243.26884pt.
 )
 
-[19
+[20
 
  <./figures/gantt_chart_project_limegreen.png>] (main.bbl
 
-[20
+[21
 
 
 ]
 
-[21])
+[22])
 
-[22] (main.aux)
+[23] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
  ***********
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1861,17 +1850,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 7B1DACA4DA7272E80CB98AD7D644BBC3;3881.
  ) 
 Here is how much of TeX's memory you used:
- 37087 strings out of 473920
- 681175 string characters out of 5726974
+ 37100 strings out of 473920
+ 681290 string characters out of 5726974
  1941908 words of memory out of 5000000
- 58861 multiletter control sequences out of 15000+600000
- 610661 words of font info for 260 fonts, out of 8000000 for 9000
+ 58862 multiletter control sequences out of 15000+600000
+ 610791 words of font info for 262 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  123i,11n,121p,1313b,647s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/SAKIB/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (26 pages, 1114437 bytes).
+Output written on main.pdf (27 pages, 1117075 bytes).
 PDF statistics:
- 408 PDF objects out of 1000 (max. 8388607)
- 98 named destinations out of 1000 (max. 500000)
+ 421 PDF objects out of 1000 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
  51479 words of extra memory for PDF output out of 51595 (max. 10000000)
 
