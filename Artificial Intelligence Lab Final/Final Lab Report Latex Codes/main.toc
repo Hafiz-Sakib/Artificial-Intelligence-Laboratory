@@ -17,12 +17,12 @@
 \contentsline {section}{\numberline {4.2}Evaluation Criteria}{15}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Parameter Settings}{15}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Experimental Results}{15}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Discussion}{16}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Social and Cultural Impact}{16}{subsection.4.5.1}%
+\contentsline {section}{\numberline {4.5}Discussion}{17}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Social and Cultural Impact}{17}{subsection.4.5.1}%
 \contentsline {subsection}{\numberline {4.5.2}Error Analysis and Limitations}{17}{subsection.4.5.2}%
-\contentsline {chapter}{\numberline {5}Conclusion and Future Works}{18}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Conclusion}{18}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Future Work}{18}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Project Timeline}{20}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Gantt Chart of the AI Project}{20}{section.6.1}%
-\contentsline {chapter}{Bibliography}{21}{figure.caption.14}%
+\contentsline {chapter}{\numberline {5}Conclusion and Future Works}{19}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusion}{19}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Future Work}{19}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Project Timeline}{21}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Gantt Chart of the AI Project}{21}{section.6.1}%
+\contentsline {chapter}{Bibliography}{22}{figure.caption.14}%
