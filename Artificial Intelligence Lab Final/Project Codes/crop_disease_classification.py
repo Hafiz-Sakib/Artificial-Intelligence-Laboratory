@@ -188,6 +188,32 @@ from tqdm import tqdm
 # Create the model
 m = timm.create_model("rexnet_150", pretrained=True, num_classes=len(classes))
 
+tfs = T.Compose([
+    T.RandomResizedCrop(size=224, scale=(0.9, 1.0)),  # Random crops (90–100% area)
+    T.RandomHorizontalFlip(),                        # Random horizontal flips
+    T.RandomVerticalFlip(),                          # Random vertical flips
+    T.RandomRotation(15),                            # Random rotations (±15°)
+    T.ColorJitter(brightness=0.2, contrast=0.2),     # Brightness/contrast jitter
+    T.ToTensor(),
+    T.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+])
+
+class CustomClassifier(nn.Module):
+    def __init__(self, backbone, num_classes=5):
+        super(CustomClassifier, self).__init__()
+        self.backbone = backbone
+        self.head = nn.Sequential(
+            nn.Linear(1280, 256),  # Assuming ReXNet150 outputs 1280 channels
+            nn.ReLU(),
+            nn.Dropout(0.5),
+            nn.Linear(256, num_classes)
+        )
+
+    def forward(self, x):
+        x = self.backbone(x)
+        x = self.head(x)
+        return x
+
 # Initialize device
 device = "cuda" if torch.cuda.is_available() else "cpu"
 print(f"Using device: {device}")
